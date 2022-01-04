@@ -2,8 +2,12 @@
   "name": "express",
   "version": "0.0.0",
   "private": true,
+  "bin": {
+    "cli": "./cli/index.js"
+  },
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "cli": "node ./cli"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
